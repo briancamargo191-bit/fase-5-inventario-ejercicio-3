@@ -1,4 +1,4 @@
-# Fase 5 - Evaluación Final POA
+BRIAN ALBERTO CLETO CAMARGO
 # Problema 3: Reabastecimiento de inventario
 
 # Matriz de inventario: [código, nombre, stock actual, stock mínimo]
@@ -31,6 +31,7 @@ def mostrar_reporte(matriz):
 
         cantidad = calcular_pedido(stock_actual, stock_minimo)
         print(f"{nombre}: pedir {cantidad} unidades")
+
 
 
 mostrar_reporte(inventario)
